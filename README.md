@@ -59,7 +59,7 @@ Dataset used for this project was Kitti Dataset
 
 * **Scale scenario**
 
-![Scale](Results/scale_results.png "Kitti Dataset")
+![Scale](Results/Scale_results.png "Kitti Dataset")
 
 * **Intensity shifting scenario**
 
