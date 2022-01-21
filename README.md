@@ -54,20 +54,25 @@ Dataset used for this project was Kitti Dataset
 
 ### Results
 * **Rotation scenario**
+
 ![Rotation](Results/Rotation_Results.png "Kitti Dataset")
 
 * **Scale scenario**
+
 ![Scale](Results/scale_results.png "Kitti Dataset")
 
 * **Intensity shifting scenario**
+
 ![Scale](Results/Intensity_shifting_results.png "Kitti Dataset")
 
 * **Intensity scaling**
+
 ![The San Juan Mountains are beautiful!](Results/Intensity_scaling_results.png "Kitti Dataset")
 
 ### Speed Test and number of correct matched points
 
 * **Rectified Camera** : Using Camera 2 and camera 3 (same frame)
+
 |       Method        |    Execution Time    | image Points |    % of inliers    |
 |---------------------|----------------------|--------------|--------------------|
 |     SIFT,SIFT,L2    |  1.2026803588867188 |     1507     | 67.82181974305533  |
@@ -82,6 +87,7 @@ Dataset used for this project was Kitti Dataset
 |     ORB,FREAK,L1    |  0.1049588966369629 |      85      | 1.322288154431402  |  
 
 * **Forward motion** :  using camera 2 for this scenario (frame t and frame + 1)
+
 |       Method        |    Execution Time    | image Points |    % of inliers    |
 |---------------------|----------------------|--------------|--------------------|
 |     SIFT,SIFT,L2    |  1.4541015815734863 |     1507     | 67.82181974305533  |
@@ -96,6 +102,7 @@ Dataset used for this project was Kitti Dataset
 |     ORB,FREAK,L1    | 0.06910722732543945 |      85      | 1.322288154431402  |
 
 * **Point of view change** :  Using Camera 2 and camera 3 in Frame + 1
+
 |       Method        |    Execution Time    | image Points |    % of inliers    |
 |---------------------|----------------------|--------------|--------------------|
 |     SIFT,SIFT,L2    |  1.4300354646176707 |     1415     |  66.3599150745823  |
@@ -110,6 +117,7 @@ Dataset used for this project was Kitti Dataset
 |     ORB,FREAK,L1    | 0.06925193144350636 |      76      | 17.051412609243087 |
 
 * **Point of view change** :  Using Camera 2 and camera 3 in Frame + 2
+
 |       Method        |    Execution Time    | image Points |    % of inliers    |
 |---------------------|----------------------|--------------|--------------------|
 |     SIFT,SIFT,L2    |  1.4115840047597885 |     1535     | 77.22183943528765  |
