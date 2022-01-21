@@ -68,6 +68,7 @@ Dataset used for this project was Kitti Dataset
 ### Speed Test and number of correct matched points
 
 * **Rectified Camera** : Using Camera 2 and camera 3 (same frame)
+
 |       Method        |    Execution Time    | image Points |    % of inliers    |
 |---------------------|----------------------|--------------|--------------------|
 |     SIFT,SIFT,L2    |  1.2026803588867188 |     1507     | 67.82181974305533  |
